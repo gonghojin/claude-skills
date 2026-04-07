@@ -1,12 +1,20 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "nkia-skills",
+  "description": "사내 Claude Code 스킬 관리 도구 — 생성, 검증, 배포, 설치, 카탈로그 조회",
+  "owner": {
+    "name": "nkia",
+    "email": "gongdel@nkia.co.kr"
+  },
   "plugins": [
     {
       "name": "nkia-skills",
+      "description": "사내 Claude Code 스킬 라이프사이클 관리 플러그인",
       "version": "1.0.0",
       "source": "./",
-      "category": "productivity"
+      "category": "productivity",
+      "homepage": "https://github.com/gonghojin/claude-skills"
     }
-  ]
+  ],
+  "version": "1.0.0"
 }
