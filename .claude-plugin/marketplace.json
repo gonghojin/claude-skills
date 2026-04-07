@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nkia-skills",
+  "plugins": [
+    {
+      "name": "nkia-skills",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

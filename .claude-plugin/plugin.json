@@ -1,0 +1,6 @@
+{
+  "name": "nkia-skills",
+  "version": "1.0.0",
+  "description": "사내 Claude Code 스킬 관리 도구 — 생성, 검증, 배포, 설치, 카탈로그 조회",
+  "skills": "./skills/"
+}
