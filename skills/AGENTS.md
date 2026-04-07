@@ -1,8 +1,8 @@
-# 사내 스킬 관리 도구 카탈로그
+# 사내 Claude Code 스킬 카탈로그
 
-사내 Claude Code 스킬의 라이프사이클(생성 → 검증 → 배포 → 설치)을 관리하는 도구 모음입니다.
+사내 Claude Code 스킬 플러그인입니다. 스킬 관리 도구와 일상 업무 자동화 스킬을 제공합니다.
 
-## 스킬 목록
+## 스킬 관리 도구
 
 | 스킬 | 설명 | 사용법 |
 |------|------|--------|
@@ -11,6 +11,18 @@
 | [skill-list](skill-list/SKILL.md) | 로컬/원격 스킬 카탈로그 조회 | `/nkia-skills:skill-list [--remote\|--all]` |
 | [skill-publish](skill-publish/SKILL.md) | 사내 Git repo에 스킬 배포 | `/nkia-skills:skill-publish <name>` |
 | [skill-install](skill-install/SKILL.md) | 사내 repo에서 스킬 설치 | `/nkia-skills:skill-install <name>` |
+
+## 일상 업무 자동화
+
+PIMS + git 기반 범용 스킬. 어떤 프로젝트에서든 사용 가능합니다.
+
+| 스킬 | 설명 | 사용법 |
+|------|------|--------|
+| [dev-start](dev-start/SKILL.md) | 개발 시작 대시보드 (리마인더 + 이슈 + 어제 작업) | `/nkia-skills:dev-start` |
+| [log-work](log-work/SKILL.md) | PIMS 작업 시간 기록 + 진행률 갱신 | `/nkia-skills:log-work [#ticket] <hours>` |
+| [weekly-report](weekly-report/SKILL.md) | 주간 업무 보고서 자동 생성/제출 | `/nkia-skills:weekly-report [--dry-run]` |
+| [sprint-status](sprint-status/SKILL.md) | 스프린트/마일스톤 현황 대시보드 + 일괄 갱신 | `/nkia-skills:sprint-status [milestone]` |
+| [task-review](task-review/SKILL.md) | git log + AI 대화 기반 진행사항 보고서 생성 | `/nkia-skills:task-review [날짜]` |
 
 ## 워크플로우
 
