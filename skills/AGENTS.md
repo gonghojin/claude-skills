@@ -30,7 +30,7 @@
 
 ```yaml
 registry:
-  remote_url: "https://github.com/gongdel/claude-skills.git"
+  remote_url: "https://github.com/gonghojin/claude-skills.git"
   branch: main
 ```
 
@@ -44,7 +44,7 @@ registry:
     "nkia-skills": {
       "source": {
         "source": "git",
-        "url": "https://github.com/gongdel/claude-skills.git"
+        "url": "https://github.com/gonghojin/claude-skills.git"
       }
     }
   }
